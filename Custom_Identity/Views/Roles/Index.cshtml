@@ -1,0 +1,21 @@
+﻿@model List<Microsoft.AspNetCore.Identity.IdentityRole>
+
+<h1 class="text-center mt-5 mb-4">User Roles</h1>
+
+<div class="table-responsive">
+    <table class="table table-bordered table-hover">
+        <thead class="table-dark">
+            <tr>
+                <th class="text-center">Role Name</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var role in Model)
+            {
+                <tr>
+                    <td>@role.Name</td>
+                </tr>
+            }
+        </tbody>
+    </table>
+</div>

@@ -1,0 +1,377 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\.NET_CORE\\Custom_Identity\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{3679751D-A5F6-470F-B47C-2B6C70FDD700}|Custom_Identity\\Custom_Identity.csproj|d:\\.net_core\\custom_identity\\custom_identity\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3679751D-A5F6-470F-B47C-2B6C70FDD700}|Custom_Identity\\Custom_Identity.csproj|solutionrelative:custom_identity\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3679751D-A5F6-470F-B47C-2B6C70FDD700}|Custom_Identity\\Custom_Identity.csproj|d:\\.net_core\\custom_identity\\custom_identity\\controllers\\rolescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3679751D-A5F6-470F-B47C-2B6C70FDD700}|Custom_Identity\\Custom_Identity.csproj|solutionrelative:custom_identity\\controllers\\rolescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3679751D-A5F6-470F-B47C-2B6C70FDD700}|Custom_Identity\\Custom_Identity.csproj|d:\\.net_core\\custom_identity\\custom_identity\\controllers\\userrolescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3679751D-A5F6-470F-B47C-2B6C70FDD700}|Custom_Identity\\Custom_Identity.csproj|solutionrelative:custom_identity\\controllers\\userrolescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3679751D-A5F6-470F-B47C-2B6C70FDD700}|Custom_Identity\\Custom_Identity.csproj|d:\\.net_core\\custom_identity\\custom_identity\\models\\viewmodel\\userrolesviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3679751D-A5F6-470F-B47C-2B6C70FDD700}|Custom_Identity\\Custom_Identity.csproj|solutionrelative:custom_identity\\models\\viewmodel\\userrolesviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3679751D-A5F6-470F-B47C-2B6C70FDD700}|Custom_Identity\\Custom_Identity.csproj|d:\\.net_core\\custom_identity\\custom_identity\\models\\viewmodel\\loginviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3679751D-A5F6-470F-B47C-2B6C70FDD700}|Custom_Identity\\Custom_Identity.csproj|solutionrelative:custom_identity\\models\\viewmodel\\loginviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3679751D-A5F6-470F-B47C-2B6C70FDD700}|Custom_Identity\\Custom_Identity.csproj|d:\\.net_core\\custom_identity\\custom_identity\\models\\viewmodel\\profileviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3679751D-A5F6-470F-B47C-2B6C70FDD700}|Custom_Identity\\Custom_Identity.csproj|solutionrelative:custom_identity\\models\\viewmodel\\profileviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3679751D-A5F6-470F-B47C-2B6C70FDD700}|Custom_Identity\\Custom_Identity.csproj|d:\\.net_core\\custom_identity\\custom_identity\\models\\viewmodel\\registerviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3679751D-A5F6-470F-B47C-2B6C70FDD700}|Custom_Identity\\Custom_Identity.csproj|solutionrelative:custom_identity\\models\\viewmodel\\registerviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3679751D-A5F6-470F-B47C-2B6C70FDD700}|Custom_Identity\\Custom_Identity.csproj|d:\\.net_core\\custom_identity\\custom_identity\\views\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{3679751D-A5F6-470F-B47C-2B6C70FDD700}|Custom_Identity\\Custom_Identity.csproj|solutionrelative:custom_identity\\views\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3679751D-A5F6-470F-B47C-2B6C70FDD700}|Custom_Identity\\Custom_Identity.csproj|d:\\.net_core\\custom_identity\\custom_identity\\views\\roles\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{3679751D-A5F6-470F-B47C-2B6C70FDD700}|Custom_Identity\\Custom_Identity.csproj|solutionrelative:custom_identity\\views\\roles\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3679751D-A5F6-470F-B47C-2B6C70FDD700}|Custom_Identity\\Custom_Identity.csproj|d:\\.net_core\\custom_identity\\custom_identity\\models\\applicationuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3679751D-A5F6-470F-B47C-2B6C70FDD700}|Custom_Identity\\Custom_Identity.csproj|solutionrelative:custom_identity\\models\\applicationuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3679751D-A5F6-470F-B47C-2B6C70FDD700}|Custom_Identity\\Custom_Identity.csproj|d:\\.net_core\\custom_identity\\custom_identity\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3679751D-A5F6-470F-B47C-2B6C70FDD700}|Custom_Identity\\Custom_Identity.csproj|solutionrelative:custom_identity\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3679751D-A5F6-470F-B47C-2B6C70FDD700}|Custom_Identity\\Custom_Identity.csproj|d:\\.net_core\\custom_identity\\custom_identity\\views\\account\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{3679751D-A5F6-470F-B47C-2B6C70FDD700}|Custom_Identity\\Custom_Identity.csproj|solutionrelative:custom_identity\\views\\account\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3679751D-A5F6-470F-B47C-2B6C70FDD700}|Custom_Identity\\Custom_Identity.csproj|d:\\.net_core\\custom_identity\\custom_identity\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3679751D-A5F6-470F-B47C-2B6C70FDD700}|Custom_Identity\\Custom_Identity.csproj|solutionrelative:custom_identity\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3679751D-A5F6-470F-B47C-2B6C70FDD700}|Custom_Identity\\Custom_Identity.csproj|d:\\.net_core\\custom_identity\\custom_identity\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3679751D-A5F6-470F-B47C-2B6C70FDD700}|Custom_Identity\\Custom_Identity.csproj|solutionrelative:custom_identity\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3679751D-A5F6-470F-B47C-2B6C70FDD700}|Custom_Identity\\Custom_Identity.csproj|d:\\.net_core\\custom_identity\\custom_identity\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{3679751D-A5F6-470F-B47C-2B6C70FDD700}|Custom_Identity\\Custom_Identity.csproj|solutionrelative:custom_identity\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3679751D-A5F6-470F-B47C-2B6C70FDD700}|Custom_Identity\\Custom_Identity.csproj|d:\\.net_core\\custom_identity\\custom_identity\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{3679751D-A5F6-470F-B47C-2B6C70FDD700}|Custom_Identity\\Custom_Identity.csproj|solutionrelative:custom_identity\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3679751D-A5F6-470F-B47C-2B6C70FDD700}|Custom_Identity\\Custom_Identity.csproj|d:\\.net_core\\custom_identity\\custom_identity\\views\\roles\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{3679751D-A5F6-470F-B47C-2B6C70FDD700}|Custom_Identity\\Custom_Identity.csproj|solutionrelative:custom_identity\\views\\roles\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3679751D-A5F6-470F-B47C-2B6C70FDD700}|Custom_Identity\\Custom_Identity.csproj|d:\\.net_core\\custom_identity\\custom_identity\\views\\shared\\_loginpartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{3679751D-A5F6-470F-B47C-2B6C70FDD700}|Custom_Identity\\Custom_Identity.csproj|solutionrelative:custom_identity\\views\\shared\\_loginpartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3679751D-A5F6-470F-B47C-2B6C70FDD700}|Custom_Identity\\Custom_Identity.csproj|d:\\.net_core\\custom_identity\\custom_identity\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{3679751D-A5F6-470F-B47C-2B6C70FDD700}|Custom_Identity\\Custom_Identity.csproj|solutionrelative:custom_identity\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3679751D-A5F6-470F-B47C-2B6C70FDD700}|Custom_Identity\\Custom_Identity.csproj|d:\\.net_core\\custom_identity\\custom_identity\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{3679751D-A5F6-470F-B47C-2B6C70FDD700}|Custom_Identity\\Custom_Identity.csproj|solutionrelative:custom_identity\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3679751D-A5F6-470F-B47C-2B6C70FDD700}|Custom_Identity\\Custom_Identity.csproj|d:\\.net_core\\custom_identity\\custom_identity\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{3679751D-A5F6-470F-B47C-2B6C70FDD700}|Custom_Identity\\Custom_Identity.csproj|solutionrelative:custom_identity\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 4,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "ProfileViewModel.cs",
+              "DocumentMoniker": "D:\\.NET_CORE\\Custom_Identity\\Custom_Identity\\Models\\ViewModel\\ProfileViewModel.cs",
+              "RelativeDocumentMoniker": "Custom_Identity\\Models\\ViewModel\\ProfileViewModel.cs",
+              "ToolTip": "D:\\.NET_CORE\\Custom_Identity\\Custom_Identity\\Models\\ViewModel\\ProfileViewModel.cs",
+              "RelativeToolTip": "Custom_Identity\\Models\\ViewModel\\ProfileViewModel.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAABIAAAADAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-25T10:58:28.478Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "LoginViewModel.cs",
+              "DocumentMoniker": "D:\\.NET_CORE\\Custom_Identity\\Custom_Identity\\Models\\ViewModel\\LoginViewModel.cs",
+              "RelativeDocumentMoniker": "Custom_Identity\\Models\\ViewModel\\LoginViewModel.cs",
+              "ToolTip": "D:\\.NET_CORE\\Custom_Identity\\Custom_Identity\\Models\\ViewModel\\LoginViewModel.cs",
+              "RelativeToolTip": "Custom_Identity\\Models\\ViewModel\\LoginViewModel.cs",
+              "ViewState": "AQIAAAQAAAAAAAAAAAAuwAoAAAAlAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-25T10:57:57.804Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "UserRolesController.cs",
+              "DocumentMoniker": "D:\\.NET_CORE\\Custom_Identity\\Custom_Identity\\Controllers\\UserRolesController.cs",
+              "RelativeDocumentMoniker": "Custom_Identity\\Controllers\\UserRolesController.cs",
+              "ToolTip": "D:\\.NET_CORE\\Custom_Identity\\Custom_Identity\\Controllers\\UserRolesController.cs",
+              "RelativeToolTip": "Custom_Identity\\Controllers\\UserRolesController.cs",
+              "ViewState": "AQIAABAAAAAAAAAAAAAswBwAAABSAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-25T13:10:39.184Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "RolesController.cs",
+              "DocumentMoniker": "D:\\.NET_CORE\\Custom_Identity\\Custom_Identity\\Controllers\\RolesController.cs",
+              "RelativeDocumentMoniker": "Custom_Identity\\Controllers\\RolesController.cs",
+              "ToolTip": "D:\\.NET_CORE\\Custom_Identity\\Custom_Identity\\Controllers\\RolesController.cs",
+              "RelativeToolTip": "Custom_Identity\\Controllers\\RolesController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAVAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-25T07:27:38.549Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "AccountController.cs",
+              "DocumentMoniker": "D:\\.NET_CORE\\Custom_Identity\\Custom_Identity\\Controllers\\AccountController.cs",
+              "RelativeDocumentMoniker": "Custom_Identity\\Controllers\\AccountController.cs",
+              "ToolTip": "D:\\.NET_CORE\\Custom_Identity\\Custom_Identity\\Controllers\\AccountController.cs",
+              "RelativeToolTip": "Custom_Identity\\Controllers\\AccountController.cs",
+              "ViewState": "AQIAAB8AAAAAAAAAAAAAACIAAAAOAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-25T08:52:22.404Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "RegisterViewModel.cs",
+              "DocumentMoniker": "D:\\.NET_CORE\\Custom_Identity\\Custom_Identity\\Models\\ViewModel\\RegisterViewModel.cs",
+              "RelativeDocumentMoniker": "Custom_Identity\\Models\\ViewModel\\RegisterViewModel.cs",
+              "ToolTip": "D:\\.NET_CORE\\Custom_Identity\\Custom_Identity\\Models\\ViewModel\\RegisterViewModel.cs",
+              "RelativeToolTip": "Custom_Identity\\Models\\ViewModel\\RegisterViewModel.cs",
+              "ViewState": "AQIAABMAAAAAAAAAAAAkwBgAAAAqAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-25T08:52:18.889Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "UserRolesViewModel.cs",
+              "DocumentMoniker": "D:\\.NET_CORE\\Custom_Identity\\Custom_Identity\\Models\\ViewModel\\UserRolesViewModel.cs",
+              "RelativeDocumentMoniker": "Custom_Identity\\Models\\ViewModel\\UserRolesViewModel.cs",
+              "ToolTip": "D:\\.NET_CORE\\Custom_Identity\\Custom_Identity\\Models\\ViewModel\\UserRolesViewModel.cs",
+              "RelativeToolTip": "Custom_Identity\\Models\\ViewModel\\UserRolesViewModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAuwAoAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-25T09:01:29.95Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Login.cshtml",
+              "DocumentMoniker": "D:\\.NET_CORE\\Custom_Identity\\Custom_Identity\\Views\\Account\\Login.cshtml",
+              "RelativeDocumentMoniker": "Custom_Identity\\Views\\Account\\Login.cshtml",
+              "ToolTip": "D:\\.NET_CORE\\Custom_Identity\\Custom_Identity\\Views\\Account\\Login.cshtml",
+              "RelativeToolTip": "Custom_Identity\\Views\\Account\\Login.cshtml",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-04-25T08:51:11.324Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\.NET_CORE\\Custom_Identity\\Custom_Identity\\Views\\Roles\\Index.cshtml",
+              "RelativeDocumentMoniker": "Custom_Identity\\Views\\Roles\\Index.cshtml",
+              "ToolTip": "D:\\.NET_CORE\\Custom_Identity\\Custom_Identity\\Views\\Roles\\Index.cshtml",
+              "RelativeToolTip": "Custom_Identity\\Views\\Roles\\Index.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-04-25T07:30:00.791Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "ApplicationUser.cs",
+              "DocumentMoniker": "D:\\.NET_CORE\\Custom_Identity\\Custom_Identity\\Models\\ApplicationUser.cs",
+              "RelativeDocumentMoniker": "Custom_Identity\\Models\\ApplicationUser.cs",
+              "ToolTip": "D:\\.NET_CORE\\Custom_Identity\\Custom_Identity\\Models\\ApplicationUser.cs",
+              "RelativeToolTip": "Custom_Identity\\Models\\ApplicationUser.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAEAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-25T11:01:25.365Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\.NET_CORE\\Custom_Identity\\Custom_Identity\\Program.cs",
+              "RelativeDocumentMoniker": "Custom_Identity\\Program.cs",
+              "ToolTip": "D:\\.NET_CORE\\Custom_Identity\\Custom_Identity\\Program.cs",
+              "RelativeToolTip": "Custom_Identity\\Program.cs",
+              "ViewState": "AQIAADEAAAAAAAAAAAAewDkAAAALAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-25T06:24:43.027Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Register.cshtml",
+              "DocumentMoniker": "D:\\.NET_CORE\\Custom_Identity\\Custom_Identity\\Views\\Account\\Register.cshtml",
+              "RelativeDocumentMoniker": "Custom_Identity\\Views\\Account\\Register.cshtml",
+              "ToolTip": "D:\\.NET_CORE\\Custom_Identity\\Custom_Identity\\Views\\Account\\Register.cshtml",
+              "RelativeToolTip": "Custom_Identity\\Views\\Account\\Register.cshtml",
+              "ViewState": "AQIAAFQAAAAAAAAAAAAwwF8AAAA1AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-04-25T08:50:48.419Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "ApplicationDbContext.cs",
+              "DocumentMoniker": "D:\\.NET_CORE\\Custom_Identity\\Custom_Identity\\Data\\ApplicationDbContext.cs",
+              "RelativeDocumentMoniker": "Custom_Identity\\Data\\ApplicationDbContext.cs",
+              "ToolTip": "D:\\.NET_CORE\\Custom_Identity\\Custom_Identity\\Data\\ApplicationDbContext.cs",
+              "RelativeToolTip": "Custom_Identity\\Data\\ApplicationDbContext.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMAAAAdAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-25T06:14:45.382Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "D:\\.NET_CORE\\Custom_Identity\\Custom_Identity\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "Custom_Identity\\Controllers\\HomeController.cs",
+              "ToolTip": "D:\\.NET_CORE\\Custom_Identity\\Custom_Identity\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "Custom_Identity\\Controllers\\HomeController.cs",
+              "ViewState": "AQIAAAcAAAAAAAAAAAAQwBAAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-25T08:51:17.081Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "D:\\.NET_CORE\\Custom_Identity\\Custom_Identity\\appsettings.json",
+              "RelativeDocumentMoniker": "Custom_Identity\\appsettings.json",
+              "ToolTip": "D:\\.NET_CORE\\Custom_Identity\\Custom_Identity\\appsettings.json",
+              "RelativeToolTip": "Custom_Identity\\appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-04-25T12:18:19.291Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "_ViewImports.cshtml",
+              "DocumentMoniker": "D:\\.NET_CORE\\Custom_Identity\\Custom_Identity\\Views\\_ViewImports.cshtml",
+              "RelativeDocumentMoniker": "Custom_Identity\\Views\\_ViewImports.cshtml",
+              "ToolTip": "D:\\.NET_CORE\\Custom_Identity\\Custom_Identity\\Views\\_ViewImports.cshtml",
+              "RelativeToolTip": "Custom_Identity\\Views\\_ViewImports.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-04-25T12:18:16.024Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "D:\\.NET_CORE\\Custom_Identity\\Custom_Identity\\Views\\Roles\\Create.cshtml",
+              "RelativeDocumentMoniker": "Custom_Identity\\Views\\Roles\\Create.cshtml",
+              "ToolTip": "D:\\.NET_CORE\\Custom_Identity\\Custom_Identity\\Views\\Roles\\Create.cshtml",
+              "RelativeToolTip": "Custom_Identity\\Views\\Roles\\Create.cshtml",
+              "ViewState": "AQIAABsAAAAAAAAAAAAYwDgAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-04-25T07:30:24.979Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "_LoginPartial.cshtml",
+              "DocumentMoniker": "D:\\.NET_CORE\\Custom_Identity\\Custom_Identity\\Views\\Shared\\_LoginPartial.cshtml",
+              "RelativeDocumentMoniker": "Custom_Identity\\Views\\Shared\\_LoginPartial.cshtml",
+              "ToolTip": "D:\\.NET_CORE\\Custom_Identity\\Custom_Identity\\Views\\Shared\\_LoginPartial.cshtml",
+              "RelativeToolTip": "Custom_Identity\\Views\\Shared\\_LoginPartial.cshtml",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAAABAAAAAYAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-04-25T09:05:08.721Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\.NET_CORE\\Custom_Identity\\Custom_Identity\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "Custom_Identity\\Views\\Home\\Index.cshtml",
+              "ToolTip": "D:\\.NET_CORE\\Custom_Identity\\Custom_Identity\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "Custom_Identity\\Views\\Home\\Index.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAeAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-04-25T10:27:30.969Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "D:\\.NET_CORE\\Custom_Identity\\Custom_Identity\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "Custom_Identity\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "D:\\.NET_CORE\\Custom_Identity\\Custom_Identity\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "Custom_Identity\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AQIAAA4AAAAAAAAAAAAAAB0AAABbAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-04-25T09:05:02.268Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "launchSettings.json",
+              "DocumentMoniker": "D:\\.NET_CORE\\Custom_Identity\\Custom_Identity\\Properties\\launchSettings.json",
+              "RelativeDocumentMoniker": "Custom_Identity\\Properties\\launchSettings.json",
+              "ToolTip": "D:\\.NET_CORE\\Custom_Identity\\Custom_Identity\\Properties\\launchSettings.json",
+              "RelativeToolTip": "Custom_Identity\\Properties\\launchSettings.json",
+              "ViewState": "AQIAABgAAAAAAAAAAAAYwCwAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-04-25T08:36:06.484Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
