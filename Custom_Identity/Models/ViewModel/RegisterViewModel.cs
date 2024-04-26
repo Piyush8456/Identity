@@ -22,6 +22,9 @@ namespace Custom_Identity.Models.ViewModel
         [DataType(DataType.MultilineText)]
         public string? Address { get; set; }
 
-        public string? Roles { get; set; }
+        public List<string>? Roles { get; set; }
+
+        public string? SelectedRole { get; set; }
+
     }
 }

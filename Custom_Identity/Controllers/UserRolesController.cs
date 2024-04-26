@@ -5,6 +5,8 @@ using Microsoft.EntityFrameworkCore;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using Custom_Identity.Models.ViewModel;
+
 
 namespace Custom_Identity.Controllers
 {
@@ -22,14 +24,15 @@ namespace Custom_Identity.Controllers
         public async Task<IActionResult> Index()
         {
             var users = await _userManager.Users.ToListAsync();
-            var userRolesViewModel = new List<UserRolesViewModel>();
+        var userRolesViewModel = new List<UserRolesViewModel>();
             foreach (ApplicationUser user in users)
             {
                 var roles = await _userManager.GetRolesAsync(user);
-                userRolesViewModel.Add(new UserRolesViewModel { User = user, Roles = roles });
+        userRolesViewModel.Add(new UserRolesViewModel { User = user, Roles = roles
+    });
             }
 
-            return View(userRolesViewModel);
+return View(userRolesViewModel);
         }
     }
 }

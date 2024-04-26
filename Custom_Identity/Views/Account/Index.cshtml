@@ -1,0 +1,7 @@
+﻿@* @model IEnumerable<UserRolesViewModel>
+
+@foreach (var item in Model)
+{
+    <p>@item.User.UserName - @string.Join(", ", item.Roles)</p>
+}
+ *@

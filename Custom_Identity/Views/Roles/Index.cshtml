@@ -1,19 +1,27 @@
-﻿@model List<Microsoft.AspNetCore.Identity.IdentityRole>
+﻿@model List<UserRolesViewModel>
 
-<h1 class="text-center mt-5 mb-4">User Roles</h1>
+@{
+    ViewData["Title"] = "User Roles";
+}
+
+<h1>User Roles</h1>
 
 <div class="table-responsive">
-    <table class="table table-bordered table-hover">
-        <thead class="table-dark">
+    <table class="table table-striped table-bordered">
+        <thead class="thead-dark">
             <tr>
-                <th class="text-center">Role Name</th>
+                <th>Name</th>
+                <th>Email</th>
+                <th>Roles</th>
             </tr>
         </thead>
         <tbody>
-            @foreach (var role in Model)
+            @foreach (var userRole in Model)
             {
                 <tr>
-                    <td>@role.Name</td>
+                    <td>@userRole.User.Name</td>
+                    <td>@userRole.User.Email</td>
+                    <td>@string.Join(", ", userRole.Roles)</td>
                 </tr>
             }
         </tbody>

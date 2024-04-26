@@ -1,6 +1,8 @@
 ﻿using Custom_Identity.Models;
+using Custom_Identity.Models.ViewModel;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.EntityFrameworkCore;
 
 namespace Custom_Identity.Controllers
 {
@@ -8,17 +10,26 @@ namespace Custom_Identity.Controllers
     {
         private readonly UserManager<ApplicationUser> _userManager;
         private readonly RoleManager<IdentityRole> _roleManager;
+
         public RolesController(UserManager<ApplicationUser> userManager, RoleManager<IdentityRole> roleManager)
         {
             _userManager = userManager;
             _roleManager = roleManager;
         }
 
-        public IActionResult Index()
+        public async Task<IActionResult> Index()
         {
-            var roles = _roleManager.Roles.ToList();
+     
 
-            return View(roles);
+            var users = await _userManager.Users.ToListAsync();
+            var userRolesViewModel = new List<UserRolesViewModel>();
+            foreach (ApplicationUser user in users)
+            {
+                var roles = await _userManager.GetRolesAsync(user);
+                userRolesViewModel.Add(new UserRolesViewModel { User = user, Roles = roles });
+            }
+
+            return View(userRolesViewModel);
         }
 
         public IActionResult Create()
