@@ -1,18 +1,17 @@
 ﻿using System.Security.Claims;
+using System.Collections.Generic;
 
 namespace Custom_Identity.Models
 {
     public static class ClaimsStore
     {
-        public static List<Claim> GetAllClaims()
+        public static List<Claim> AllClaims = new List<Claim>()
         {
-            return new List<Claim>()
-            {
-                // Initializes a new instance of the Claim class with the specified claim type, and value.
+         
                 new Claim("Create Role", "Create Role"),
                 new Claim("Edit Role", "Edit Role"),
-                new Claim("Delete Role", "Delete Role")
-            };
-        }
+                new Claim("Delete Role", "Delete Role"),
+                new Claim("ReadOnly Role", "ReadOnly Role")
+        };
     }
 }

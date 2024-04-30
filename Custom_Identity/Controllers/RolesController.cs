@@ -1,5 +1,6 @@
 ﻿using Custom_Identity.Models;
 using Custom_Identity.Models.ViewModel;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
@@ -17,10 +18,11 @@ namespace Custom_Identity.Controllers
             _roleManager = roleManager;
         }
 
+        //[Authorize(Roles = "Admin, Manager")]
+        [Authorize(Policy = "ReadOnlyRolePolicy")]
         public async Task<IActionResult> Index()
         {
      
-
             var users = await _userManager.Users.ToListAsync();
             var userRolesViewModel = new List<UserRolesViewModel>();
             foreach (ApplicationUser user in users)
@@ -31,11 +33,22 @@ namespace Custom_Identity.Controllers
 
             return View(userRolesViewModel);
         }
+        [HttpGet]
+        //[Authorize(Roles = "Admin, Manager")]
+        [Authorize(Policy = "CreateRolePolicy")]
 
         public IActionResult Create()
         {
+
             return View();
         }
+
+
+        public IActionResult AccessDenide()
+        {
+            return View();
+        }
+
 
 
         [HttpPost]

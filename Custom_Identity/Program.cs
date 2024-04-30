@@ -1,9 +1,9 @@
 using Custom_Identity.Data;
 using Custom_Identity.Models;
+using Google.Protobuf.WellKnownTypes;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.DependencyInjection;
-using System;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -11,16 +11,58 @@ var ConnectionString = builder.Configuration.GetConnectionString("DefaultConnect
 
 builder.Services.AddControllersWithViews();
 
-builder.Logging.ClearProviders(); 
+builder.Logging.ClearProviders();
 builder.Logging.AddConsole(options =>
 {
-    options.DisableColors = false; 
-    options.TimestampFormat = "[HH:mm:ss] "; 
-    options.LogToStandardErrorThreshold = LogLevel.Information; // Show logs of Information level or higher
+    options.DisableColors = false;
+    options.TimestampFormat = "[HH:mm:ss] ";
+    options.LogToStandardErrorThreshold = LogLevel.Information; 
 });
+
 builder.Services.AddDbContextPool<ApplicationDbContext>(
     options => options.UseSqlServer(ConnectionString)
 );
+
+//builder.Services.AddAuthorization(options =>
+//{
+//    options.AddPolicy("EditRolePolicy",
+//        policy => policy.RequireClaim("Edit Role","true"));
+//    options.AddPolicy("DeleteRolePolicy",
+//    policy => policy.RequireClaim("Delete Role"));
+//    options.AddPolicy("AddRolePolicy",
+//    policy => policy.RequireClaim("Add Role"));
+//});
+
+//builder.Services.AddAuthorization(options =>
+//{
+//    foreach (var claim in ClaimsStore.AllClaims)
+//    {
+//        options.AddPolicy($"Claim-{claim.Type}-{claim.Value}", policy =>
+//        {
+//            policy.RequireClaim(claim.Type, claim.Value);
+//        });
+//    }
+//});
+builder.Services.AddAuthorization(Option =>
+{
+    Option.AddPolicy("EditRolePolicy",
+                policy => policy.RequireClaim("Edit Role"));
+});
+builder.Services.AddAuthorization(Option =>
+{
+    Option.AddPolicy("CreateRolePolicy",
+                policy => policy.RequireClaim("Create Role"));
+});
+builder.Services.AddAuthorization(Option =>
+{
+    Option.AddPolicy("ReadOnlyRolePolicy",
+                policy => policy.RequireClaim("ReadOnly Role"));
+});
+
+
+
+
+
 builder.Services.AddIdentity<ApplicationUser, IdentityRole>(
     options =>
     {
@@ -31,55 +73,27 @@ builder.Services.AddIdentity<ApplicationUser, IdentityRole>(
         //options.Password.RequireLowercase = false;
     }
 )
-    .AddEntityFrameworkStores<ApplicationDbContext>().AddDefaultTokenProviders();
+
+    .AddEntityFrameworkStores<ApplicationDbContext>()
+    .AddDefaultTokenProviders();
 
 var app = builder.Build();
 
-// Seed roles
-using (var scope = app.Services.CreateScope())
+if (app.Environment.IsDevelopment())
 {
-    var roleManager = scope.ServiceProvider.GetRequiredService<RoleManager<IdentityRole>>();
-    var userManager = scope.ServiceProvider.GetRequiredService<UserManager<ApplicationUser>>();
-
-    string[] roleNames = { "Admin", "Manager", "Member" };
-
-    foreach (var roleName in roleNames)
-    {
-        var roleExist = await roleManager.RoleExistsAsync(roleName);
-        if (!roleExist)
-        {
-            await roleManager.CreateAsync(new IdentityRole(roleName));
-        }
-    }
-
-    //    var adminuser = await usermanager.findbyemailasync("admin@example.com");
-
-    //    if (adminuser != null)
-    //    {
-    //        await usermanager.addtoroleasync(adminuser, "admin");
-    //    }
-    //}
-
-
-
-    // Configure the HTTP request pipeline.
-    if (!app.Environment.IsDevelopment())
-    {
-        app.UseExceptionHandler("/Home/Error");
-        // The default HSTS value is 30 days. You may want to change this for production scenarios, see https://aka.ms/aspnetcore-hsts.
-        app.UseHsts();
-    }
-
-    app.UseHttpsRedirection();
-    app.UseStaticFiles();
-
-    app.UseRouting();
-
-    app.UseAuthorization();
-
-    app.MapControllerRoute(
-        name: "default",
-        pattern: "{controller=Home}/{action=Index}/{id?}");
-
-    app.Run();
+    app.UseDeveloperExceptionPage();
 }
+
+app.UseHttpsRedirection();
+app.UseStaticFiles();
+app.UseRouting();
+app.UseAuthentication();
+app.UseAuthorization();
+
+app.UseStatusCodePagesWithRedirects("/Error/Unauthorized");
+
+app.MapControllerRoute(
+    name: "default",
+    pattern: "{controller=Home}/{action=Index}/{id?}");
+
+app.Run();

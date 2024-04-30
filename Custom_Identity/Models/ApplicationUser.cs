@@ -7,7 +7,6 @@ namespace Custom_Identity.Models
         public string? Name { get; set; }
 
         public string? Address { get; set; }
-
-        //public IList<string>? Roles { get; set; }
+        //public List<string>? Roles { get; set; }
     }
 }
